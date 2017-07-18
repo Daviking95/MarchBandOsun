@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Import" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    <!--</group>-->
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Dashboard"
+        android:fontFamily="Cursive"/>
+
+    <item android:title="Main">
+        <menu>
+            <item
+                android:id="@+id/nav_songs"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Songs"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_band_anthem"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Band Anthem &amp; Pledge"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_organogram"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Organogram"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_rules"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Code Of Conduct"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_commands"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Parade Commands &amp; Order"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_officials"
+                android:icon="@drawable/ic_menu_share"
+                android:title="The Officials"
+                android:fontFamily="Cursive"/>
+        </menu>
+    </item>
+
+    <item android:title="Extra">
+        <menu>
+
+            <item
+                android:id="@+id/nav_instrument"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Band Instrument"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_video"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Videos"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_instagram_socials"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Instagram Account"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_facebook_socials"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Facebook Account"
+                android:fontFamily="Cursive"/>
+
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate Us"
+                android:fontFamily="Cursive"/>
+            <item
+                android:id="@+id/nav_credit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Credits"
+                android:fontFamily="Cursive"/>
+        </menu>
+    </item>
+
+</menu>
